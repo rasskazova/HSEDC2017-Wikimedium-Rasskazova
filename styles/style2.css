@@ -1,9 +1,10 @@
 body {
   font-family: "PT Sans", sans-serif;
-  <!-- background-image: url(../images/background.jpg);-->
   background-size: 800px 20624px;
   background-position: top center;
   background-repeat: no-repeat;
+  width: 700px;
+  margin: 0 auto;
   padding-top: 66px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,11 +12,6 @@ body {
 
 a {
   color: inherit;
-}
-
-h1, h2, h3, p, ul, blockquote {
-  width: 700px;
-  margin: 0 auto;
 }
 
 h1 {
@@ -84,18 +80,4 @@ blockquote::before {
 
 ul, ol {
   margin: 17px 0 17px 30px;
-}
-
-img {
-  display: block;
-  width: 1020px;
-  margin: 80px auto;
-}
-
-img + h2 {
-  margin-top: -1px;
-}
-
-img + p {
-  margin-top: -3px;
 }
